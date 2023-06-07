@@ -1,0 +1,10 @@
+.img {
+  border-radius: 10px;
+}
+
+.span::after {
+  content: " | ";
+  display: inline-block;
+  position: static;
+  padding-inline: 20px ;
+}
